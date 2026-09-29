@@ -33,8 +33,6 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="АКРАН — Мостовые краны лёгкого режима">
 <meta name="twitter:description" content="Производитель мостовых кранов с 2004 года. Красноярск.">
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script>emailjs.init('v1uvrezZ0kjWDERLi');</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;600;700&family=Geologica:wght@300;400;500&display=swap" rel="stylesheet">
@@ -1117,43 +1115,8 @@
     </div>
 
     <div class="form-card reveal">
-      <h3>Оставить заявку</h3>
-      <div class="form-row">
-        <div class="form-group">
-          <label>Имя</label>
-          <input id="f-name" type="text" placeholder="Александр">
-        </div>
-        <div class="form-group">
-          <label>Телефон</label>
-          <input id="f-phone" type="tel" placeholder="+7 (___) ___-__-__">
-        </div>
-      </div>
-      <div class="form-group">
-        <label>E-mail</label>
-        <input id="f-email" type="email" placeholder="example@mail.ru">
-      </div>
-      <div class="form-group">
-        <label>Компания</label>
-        <input id="f-company" type="text" placeholder="ООО «Ваша Компания»">
-      </div>
-      <div class="form-group">
-        <label>Комментарий / параметры объекта</label>
-        <textarea id="f-comment" placeholder="Пролёт, высота подъёма, особые условия..."></textarea>
-      </div>
-      <!-- загрузка КП конкурента -->
-      <div class="form-group">
-        <label>Прикрепить файл</label>
-        <label id="file-drop" for="kp-file" style="display:flex;align-items:center;gap:12px;padding:14px 16px;border:1.5px dashed var(--blue-bright);border-radius:var(--radius);background:var(--blue-pale);cursor:pointer;transition:background .2s;">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--blue-bright)" stroke-width="2" style="flex-shrink:0;"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="17,8 12,3 7,8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
-          <div>
-            <span id="file-label" style="font-size:0.88rem;color:var(--blue-mid);font-weight:500;">Прикрепить файл</span>
-            <span style="font-size:0.78rem;color:var(--text-light);display:block;margin-top:2px;">PDF, DOC, XLS — до 10 МБ</span>
-          </div>
-        </label>
-        <input type="file" id="kp-file" accept=".pdf,.doc,.docx,.xls,.xlsx" style="display:none;" onchange="handleFile(this)">
-      </div>
-      <button class="form-submit" onclick="handleSubmit(this)">Отправить заявку →</button>
-      <p class="form-note">Нажимая кнопку, вы соглашаетесь с <a href="#" style="color:var(--blue-bright);text-decoration:none">политикой конфиденциальности</a></p>
+      <!-- Форма Битрикс24 (CRM-форма №29) -->
+      <script data-b24-form="inline/29/h7l51d" data-skip-moving="true">(function(w,d,u){var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/180000|0);var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);})(window,document,'https://cdn-ru.bitrix24.ru/b28365058/crm/form/loader_29.js');</script>
     </div>
   </div>
 </section>
@@ -1227,149 +1190,10 @@
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
-  // Form submit
-  function handleFile(input) {
-    const file = input.files[0];
-    if (!file) return;
-    const label = document.getElementById('file-label');
-    const drop = document.getElementById('file-drop');
-    label.textContent = '✓ ' + file.name;
-    label.style.color = 'var(--blue-deep)';
-    drop.style.background = '#D6E8FF';
-    drop.style.borderColor = 'var(--blue-mid)';
-  }
-
-
-  // Phone mask +7 (___) ___-__-__
-  function initPhoneMask(input) {
-    if (!input) return;
-    function format(val) {
-      let digits = val.replace(/\D/g, '');
-      if (digits.startsWith('8')) digits = '7' + digits.slice(1);
-      if (!digits.startsWith('7')) digits = '7' + digits;
-      digits = digits.slice(0, 11);
-      let res = '+7';
-      if (digits.length > 1) res += ' (' + digits.slice(1, 4);
-      if (digits.length >= 4) res += ') ' + digits.slice(4, 7);
-      if (digits.length >= 7) res += '-' + digits.slice(7, 9);
-      if (digits.length >= 9) res += '-' + digits.slice(9, 11);
-      return res;
-    }
-    input.addEventListener('input', function() {
-      const pos = this.selectionStart;
-      this.value = format(this.value);
-    });
-    input.addEventListener('keydown', function(e) {
-      if (e.key === 'Backspace' && this.value === '+7') {
-        e.preventDefault();
-      }
-    });
-    input.addEventListener('focus', function() {
-      if (!this.value) this.value = '+7 ';
-    });
-  }
-  document.addEventListener('DOMContentLoaded', function() {
-    initPhoneMask(document.getElementById('f-phone'));
+  // Цель Метрики при отправке формы Битрикс24
+  window.addEventListener('b24:form:submit', function() {
+    try { ym(109588692, 'reachGoal', 'lead_form'); } catch (e) {}
   });
-
-  function handleSubmit(btn) {
-    const name    = document.getElementById('f-name').value.trim();
-    const phone   = document.getElementById('f-phone').value.trim();
-    const email   = document.getElementById('f-email').value.trim();
-    const company = document.getElementById('f-company').value.trim();
-    const comment = document.getElementById('f-comment').value.trim();
-
-    // Валидация — имя, телефон и email обязательны
-    let valid = true;
-    [['f-name', name], ['f-phone', phone], ['f-email', email]].forEach(([id, val]) => {
-      const el = document.getElementById(id);
-      if (!val) { el.style.borderColor = '#E55'; valid = false; }
-      else el.style.borderColor = '';
-    });
-    if (!valid) {
-      btn.textContent = 'Заполните обязательные поля';
-      setTimeout(() => btn.textContent = 'Отправить заявку →', 2000);
-      return;
-    }
-
-    btn.textContent = 'Отправляем...';
-    btn.disabled = true;
-
-    const B24_BASE = 'https://app-038082036a3b.vibecode.bitrix24.tech';
-
-    function resetForm() {
-      document.getElementById('f-name').value = '';
-      document.getElementById('f-phone').value = '';
-      document.getElementById('f-email').value = '';
-      document.getElementById('f-company').value = '';
-      document.getElementById('f-comment').value = '';
-      document.getElementById('kp-file').value = '';
-      const fileLabel = document.getElementById('file-label');
-      const fileDrop  = document.getElementById('file-drop');
-      if (fileLabel) { fileLabel.textContent = 'Прикрепить файл'; fileLabel.style.color = ''; }
-      if (fileDrop)  { fileDrop.style.background = ''; fileDrop.style.borderColor = ''; }
-    }
-
-    function showSuccess() {
-      btn.textContent = '✓ Заявка отправлена!';
-      btn.style.background = '#28A745';
-      resetForm();
-      setTimeout(() => { btn.textContent = 'Отправить заявку →'; btn.style.background = ''; btn.disabled = false; }, 4000);
-    }
-
-    function showError() {
-      btn.textContent = 'Ошибка — попробуйте ещё раз';
-      btn.style.background = '#E55';
-      btn.disabled = false;
-      setTimeout(() => { btn.textContent = 'Отправить заявку →'; btn.style.background = ''; }, 3000);
-    }
-
-    const fileInput = document.getElementById('kp-file');
-    const file = fileInput && fileInput.files && fileInput.files[0];
-
-    function createLead(fileObject) {
-      const data = new FormData();
-      data.append('fields[TITLE]',               'Заявка с сайта АКРАН');
-      data.append('fields[NAME]',                name);
-      data.append('fields[PHONE][0][VALUE]',      phone);
-      data.append('fields[PHONE][0][VALUE_TYPE]', 'WORK');
-      data.append('fields[EMAIL][0][VALUE]',      email);
-      data.append('fields[EMAIL][0][VALUE_TYPE]', 'WORK');
-      if (company) data.append('fields[COMPANY_TITLE]', company);
-      data.append('fields[SOURCE_ID]',           'WEB');
-      data.append('fields[SOURCE_DESCRIPTION]',  'Сайт АКРАН — akran.ru');
-
-      let fullComment = '';
-      if (company) fullComment += 'Компания: ' + company + '\n';
-      if (comment) fullComment += comment;
-      if (fullComment) data.append('fields[COMMENTS]', fullComment.trim());
-
-      if (fileObject) {
-        data.append('fields[UF_CRM_1781144284968]', fileObject, fileObject.name);
-      }
-
-      fetch(B24_BASE + '/lead', {
-        method: 'POST',
-        body: data
-      })
-      .then(r => r.json())
-      .then(d => {
-        // Отправляем письмо на почту через EmailJS (подстраховка)
-        emailjs.send('service_aq957j5', 'template_y5nvv4g', {
-          name:    name,
-          phone:   phone,
-          email:   email,
-          company: company || '—',
-          comment: comment || '—',
-        }).catch(function(e) { console.warn('EmailJS error:', e); });
-
-        if (d.ok) showSuccess(); else throw new Error();
-      })
-      .catch(showError);
-    }
-
-    createLead(file || null);
-  }
 
   // ── About slider ──────────────────────────────────
   (function() {
