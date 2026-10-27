@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-06-10">
+<yml_catalog date="2026-10-27 11:30">
   <shop>
     <name>АКРАН</name>
     <company>АКРАН</company>
@@ -17,7 +17,7 @@
       <!-- ======= ОПОРНЫЕ КРАНЫ ======= -->
 
       <offer id="S-1-4.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-1-4.5#configurator</url>
         <price>332500</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -29,11 +29,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">4,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-1-7.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-1-7.5#configurator</url>
         <price>343400</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -45,11 +44,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">7,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-1-10.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-1-10.5#configurator</url>
         <price>355300</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -61,11 +59,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">10,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-1-13.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-1-13.5#configurator</url>
         <price>544200</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -77,11 +74,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">13,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-2-4.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-2-4.5#configurator</url>
         <price>360900</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -93,11 +89,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">4,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-2-7.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-2-7.5#configurator</url>
         <price>397800</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -109,11 +104,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">7,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-2-10.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-2-10.5#configurator</url>
         <price>418700</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -125,11 +119,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">10,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-2-13.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-2-13.5#configurator</url>
         <price>565600</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -141,11 +134,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">13,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-3.2-4.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-3.2-4.5#configurator</url>
         <price>386500</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -157,11 +149,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">4,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-3.2-7.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-3.2-7.5#configurator</url>
         <price>473400</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -173,11 +164,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">7,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-3.2-10.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-3.2-10.5#configurator</url>
         <price>491300</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -189,11 +179,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">10,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-3.2-13.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-3.2-13.5#configurator</url>
         <price>617200</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -205,11 +194,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">13,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-5-4.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-5-4.5#configurator</url>
         <price>454100</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -221,11 +209,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">4,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-5-7.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-5-7.5#configurator</url>
         <price>472500</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -237,11 +224,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">7,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-5-10.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-5-10.5#configurator</url>
         <price>545900</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -253,11 +239,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">10,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-5-13.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-5-13.5#configurator</url>
         <price>671800</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -269,11 +254,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">13,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-10-4.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-10-4.5#configurator</url>
         <price>686500</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -285,11 +269,10 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">4,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-10-7.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-10-7.5#configurator</url>
         <price>707400</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -301,11 +284,10 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">7,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-10-10.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-10-10.5#configurator</url>
         <price>833300</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -317,11 +299,10 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">10,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="S-10-13.5" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=S-10-13.5#configurator</url>
         <price>994200</price>
         <currencyId>RUR</currencyId>
         <categoryId>2</categoryId>
@@ -333,13 +314,12 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">13,5</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <!-- ======= ПОДВЕСНЫЕ КРАНЫ ======= -->
 
       <offer id="P-1-4.2" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-1-4.2#configurator</url>
         <price>316500</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -351,11 +331,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">4,2</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-1-6" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-1-6#configurator</url>
         <price>322800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -367,11 +346,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">6</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-1-9" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-1-9#configurator</url>
         <price>350700</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -383,11 +361,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">9</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-1-12" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-1-12#configurator</url>
         <price>476600</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -399,11 +376,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">12</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-1-15" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-1-15#configurator</url>
         <price>525500</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -415,11 +391,10 @@
         <param name="Грузоподъёмность" unit="т">1</param>
         <param name="Пролёт" unit="м">15</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-2-4.2" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-2-4.2#configurator</url>
         <price>380900</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -431,11 +406,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">4,2</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-2-6" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-2-6#configurator</url>
         <price>386200</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -447,11 +421,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">6</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-2-9" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-2-9#configurator</url>
         <price>414100</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -463,11 +436,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">9</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-2-12" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-2-12#configurator</url>
         <price>498000</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -479,11 +451,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">12</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-2-15" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-2-15#configurator</url>
         <price>567900</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -495,11 +466,10 @@
         <param name="Грузоподъёмность" unit="т">2</param>
         <param name="Пролёт" unit="м">15</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-3.2-4.2" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-3.2-4.2#configurator</url>
         <price>404500</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -511,11 +481,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">4,2</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-3.2-6" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-3.2-6#configurator</url>
         <price>416800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -527,11 +496,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">6</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-3.2-9" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-3.2-9#configurator</url>
         <price>493700</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -543,11 +511,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">9</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-3.2-12" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-3.2-12#configurator</url>
         <price>570600</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -559,11 +526,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">12</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-3.2-15" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-3.2-15#configurator</url>
         <price>654500</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -575,11 +541,10 @@
         <param name="Грузоподъёмность" unit="т">3,2</param>
         <param name="Пролёт" unit="м">15</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-5-4.2" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-5-4.2#configurator</url>
         <price>504100</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -591,11 +556,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">4,2</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-5-6" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-5-6#configurator</url>
         <price>520400</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -607,11 +571,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">6</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-5-9" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-5-9#configurator</url>
         <price>555300</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -623,11 +586,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">9</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-5-12" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-5-12#configurator</url>
         <price>674200</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -639,11 +601,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">12</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-5-15" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-5-15#configurator</url>
         <price>723100</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -655,11 +616,10 @@
         <param name="Грузоподъёмность" unit="т">5</param>
         <param name="Пролёт" unit="м">15</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-10-4.2" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-10-4.2#configurator</url>
         <price>749500</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -671,11 +631,10 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">4,2</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-10-6" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-10-6#configurator</url>
         <price>779800</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -687,11 +646,10 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">6</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-10-9" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-10-9#configurator</url>
         <price>905700</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -703,11 +661,10 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">9</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-10-12" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-10-12#configurator</url>
         <price>989600</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -719,11 +676,10 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">12</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
       <offer id="P-10-15" available="true">
-        <url>https://kirenttt.github.io/akran/#configurator</url>
+        <url>https://kirenttt.github.io/akran/?offer=P-10-15#configurator</url>
         <price>1136500</price>
         <currencyId>RUR</currencyId>
         <categoryId>3</categoryId>
@@ -735,7 +691,6 @@
         <param name="Грузоподъёмность" unit="т">10</param>
         <param name="Пролёт" unit="м">15</param>
         <param name="Гарантия" unit="мес">24</param>
-        <condition type="new"/>
       </offer>
 
     </offers>
